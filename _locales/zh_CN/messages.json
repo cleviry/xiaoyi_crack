@@ -1,0 +1,262 @@
+{
+  "appName": {
+    "message": "彩云小译 - 网页翻译插件",
+    "description": "中英网页翻译"
+  },
+  "appNameAbbr": {
+    "message": "彩云小译",
+    "description": "中英网页翻译"
+  },
+  "appDesc": {
+    "message": "彩云小译双语对照网页翻译插件，针对谷歌浏览器开发的一款网页翻译工具，一键高效获取母语阅读体验。",
+    "description": "中英网页翻译"
+  },
+  "launchApp": {
+     "message": "启动彩云小译",
+     "description": ""
+  },
+  "zh":{
+    "message": "中文",
+    "description": ""
+  },
+  "en": {
+    "message": "英文",
+    "description": ""
+  },
+  "ja":{
+    "message": "日文",
+    "description": ""
+  },
+  "transZh2En": {
+    "message": "中 >> 英",
+    "description": ""
+  },
+  "transEn2Zh": {
+    "message": "英 >> 中",
+    "description": ""
+  },
+  "transJp2Zh": {
+    "message": "日 >> 中",
+    "description": ""
+  },
+  "transZh2EnAbbr": {
+    "message": "中 >> 英",
+    "description": ""
+  },
+  "transEn2ZhAbbr": {
+    "message": "英 >> 中",
+    "description": ""
+  },
+  "transJp2ZhAbbr": {
+    "message": "日 >> 中",
+    "description": ""
+  },
+  "showOrg": {
+    "message": "原文",
+    "description": ""
+  },
+  "showTgt": {
+    "message": "译文",
+    "description": ""
+  },
+  "showBil": {
+    "message": "双语",
+    "description": ""
+  },
+  "showOrgAbbr": {
+    "message": "原文",
+    "description": ""
+  },
+  "showTgtAbbr": {
+    "message": "译文",
+    "description": ""
+  },
+  "showBilAbbr": {
+    "message": "双语",
+    "description": ""
+  },
+  "hideRwdBtn": {
+    "message": "隐藏菜单栏",
+    "description": ""
+  },
+  "showRwdBtn": {
+    "message": "显示菜单栏",
+    "description": ""
+  },
+  "startVideoTransBtn": {
+    "message": "开始",
+    "description": ""
+  },
+  "stopVideoTransBtn": {
+    "message": "停止",
+    "description": ""
+  },
+  "clickToStartTrans": {
+    "message": "点击‘开始’视频会开始播放并实时生成字幕喔！",
+    "description": ""
+  },
+  "requestReloadAndReload": {
+    "message": "为维护您的隐私权，‘视频翻译功能’需要您点击插件按钮或右键选单中的‘启动彩云小译’，才能在侦测到视频的情况下为您提供自动视频翻译服务。",
+    "description": ""
+  },
+  "requestingAudioMsg": {
+    "message": "正在开启音频识别功能 ...",
+    "description": ""
+  },
+  "closingAudioMsg": {
+    "message": "正在关闭音频识别功能 ...",
+    "description": ""
+  },
+  "openRecorder": {
+    "message": "已开启音频识别功能, 正在开启 WebSocket 服务 ...",
+    "description": ""
+  },
+  "openRecorderError": {
+    "message": "识别失败：",
+    "description": ""
+  },
+  "recording": {
+    "message": "识别中...",
+    "description": ""
+  },
+  "closeRecorder": {
+    "message": "已关闭",
+    "description": ""
+  },
+  "minimizeTransTip": {
+    "message": "重复点缩小小译字幕",
+    "description": ""
+  },
+  "maximizeTransTip": {
+    "message": "重复点击放大小译字幕",
+    "description": ""
+  },
+  "wsIsOpen": {
+    "message": "已开启 WebSocket",
+    "description": ""
+  },
+  "wsIsConnecting": {
+    "message": "已连接小译翻译服务器",
+    "description": ""
+  },
+  "wsIsNotOpened": {
+    "message": "糟糕！WebSocket 未成功开启，请检查网络是否连接正常或联系我们",
+    "description": ""
+  },
+  "wsError": {
+    "message": "糟糕！连接 WebSocket 失败，请检查网络是否连接正常或联系我们",
+    "description": ""
+  },
+  "VideoTransReqLogin": {
+    "message": "登入彩云小译可以体验视频翻译服务喔！若您刚登入，请刷新页面再点击视插件",
+    "description": ""
+  },
+  "searchingVideo": {
+    "message": "小译正在努力获取视频资源中...",
+    "description": ""
+  },
+  "videoNotFound": {
+    "message": "糟糕！小译没有找到可以翻译的视频，但小译还是会试着努力提供字幕给您>//<",
+    "description": ""
+  },
+  "videoBtnTitle": {
+    "message": "视频翻译（Beta）",
+    "description": ""
+  },
+  "videoAlertMuted": {
+    "message": "为了识别视频的音频，请取消静音，不然小译没办法为您提供实时字幕>//<",
+    "description": ""
+  },
+  "RequireAllowAccessFile": {
+    "message": "请在 chrome://extensions 彩云小译的“详细信息”中勾选“允许访问文件网址”，小译才能为您提供本地翻译服务喔>//<",
+    "description": ""
+  },
+  "getCookieFailed": {
+    "message": "糟糕！判断登入失败 >//<，请再点击插件，授权小译访问网站的数据",
+    "description": ""
+  },
+  "getCookiesPermissionFailed": {
+    "message": "无法访问Cookie，您将无法登录，请授权小译可读取和更改网站的数据",
+    "description": ""
+  },
+  "networkErr": {
+    "message": "诶呦喂~网络请求出错了～请检查网络连接哟～",
+    "description": ""
+  },
+  "swtErr": {
+    "message": "诶呦喂~划词翻译功能运行出错了～请刷新重试哟～",
+    "description": ""
+  },
+  "tooFreqentErr": {
+    "message": "诶呦喂~操作太频繁啦～请稍后重试哟～",
+    "description": ""
+  },
+  "multiParagraghErr": {
+    "message": "诶呦喂~选中的段落太多啦～可以试试开启整页翻译哟～",
+    "description": ""
+  },
+  "logInOut":{
+    "message": "个人中心",
+    "description": ""
+  },
+  "funcOnOff":{
+    "message": "开启/关闭网页翻译",
+    "description": ""
+  },
+  "addFavorite":{
+    "message": "收藏此页",
+    "description": ""
+  },
+  "videoTrans":{
+    "message": "视频翻译",
+    "description": ""
+  },
+  "optionsAutoSWT":{
+    "message": "启动划词翻译",
+    "description": ""
+  },
+  "optionsAutoWebTrs":{
+    "message": "英文、日文网页自动翻译成中文",
+    "description": ""
+  },
+  "defaultTrsDirect":{
+    "message": "视频翻译默认方向",
+    "description": ""
+  },
+  "defaultSubtype":{
+    "message": "翻译字幕默认显示",
+    "description": ""
+  },
+  "optionBil":{
+    "message": "双语对照",
+    "description": ""
+  },
+  "optionSource":{
+    "message": "只显示原文",
+    "description": ""
+  },
+  "optionTarget":{
+    "message": "只显示译文",
+    "description": ""
+  },
+  "textDocTrs":{
+    "message": "在线文本翻译、文档翻译",
+    "description": ""
+  },
+  "UserCenter":{
+    "message": "个人中心",
+    "description": ""
+  },
+  "xiaoyiApp":{
+    "message": "彩云小译App",
+    "description": ""
+  },
+  "feedback":{
+    "message": "意见反馈",
+    "description": ""
+  },
+  "showDirectly":{
+    "message": "直接显示划译结果",
+    "description": ""
+  }
+}

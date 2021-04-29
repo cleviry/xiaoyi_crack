@@ -1,0 +1,57 @@
+.main {
+    display: block;
+    /* text-align: center; */
+    align-items: center;
+    width: 400px;
+    margin: 0 auto;
+}
+
+/* .switch {
+    font-size: 12px
+} */
+
+.container_ {
+    margin: 10px 6px
+}
+
+.collection-item {
+    /* width: 80%; */
+}
+
+.collection-item.select-item {
+    line-height: 3rem !important
+}
+
+.collection {
+    width: 100%;
+    font-size: 12px
+}
+
+.col {
+    margin-top: 1rem !important; 
+    border: 1px solid #DDDDDD;
+    box-shadow: 0 2px 2px 0 rgba(148,147,147,0.36);
+}
+
+.header {
+    text-align: center
+}
+
+.logo-name {
+    display: block;
+    position:relative;
+    height: 30px;
+    margin: 10px;
+}
+
+.logo-name img {
+    height: 30px;
+    width: 77px;
+    position:absolute;
+	top:0;
+	/* bottom:0; */
+	left:0;
+	right:0;
+	/* margin:auto; */
+}
+

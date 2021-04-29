@@ -1,0 +1,46 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+    "default_locale": "en",
+    "name": "__MSG_appName__",
+    "short_name": "__MSG_appNameAbbr__",
+    "version": "1.0.3",
+    "manifest_version": 2,
+    "description": "__MSG_appDesc__",
+    "homepage_url": "https://fanyi.caiyunapp.com",
+    "icons": { 
+        "16": "images/logo.png",
+        "128": "images/logo.png"
+    },
+    "options_page": "options.html",
+    "content_security_policy": "script-src 'self' 'unsafe-eval' https://www.google-analytics.com; object-src 'self'; connect-src 'self' https://www.google-analytics.com https://api.growingio.com/ https://caiyunapp.com/ https://biz.caiyunapp.com/ https://api.interpreter.caiyunai.com/ http://api.interpreter.caiyunai.com/ ws://api.interpreter.caiyunai.com/ http://sentry.in.caiyunapp.com/; frame-src 'self' https://caiyunapp.com/",
+    "background": {
+        "scripts": [
+            "bkg.js"
+        ],
+        "persistent": true
+    },
+    "browser_action": {
+        "default_title": "LingoCloud",
+        "default_icon": "images/logo.png"
+    },
+    "permissions": [
+        "tabCapture",
+        "activeTab",
+        "webRequest",
+        "webRequestBlocking",
+        "webNavigation",
+        "storage",
+        "tabs",
+        "contextMenus",
+        "cookies",
+        "<all_urls>"
+    ],
+    "optional_permissions": [
+       
+    ],
+    "web_accessible_resources": [
+        "images/*",
+        "css/*"
+    ]
+}

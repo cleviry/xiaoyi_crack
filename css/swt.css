@@ -1,0 +1,217 @@
+.cyxy-trs-target#cyxy-swt {
+    background-color: white; 
+}
+#cyxy-swt-pre {
+    /* background-color: #5ebb8d; */
+    height: 30px;
+    max-width: 30px;
+    background-color: transparent;
+    min-width: 30px;
+    position: absolute; 
+    overflow: hidden; 
+    z-index: 2147483647;
+}
+
+#cyxy-swt-pre img{
+    position: absolute;
+    top: 4px;
+    left: 0px;
+    height: 30px;
+    min-width: 30px;
+    max-width: 30px;
+}
+
+#cyxy-swt-pre{
+    cursor: pointer;
+}
+
+.cyxy-trs-result#cyxy-swt {
+    background: #FFFFFF;
+    box-shadow: 0 0 8px 0 rgba(153,153,153,0.50);
+    position: absolute;
+    box-sizing: border-box;
+    padding: 12px 16px;
+    width: 350px;
+    z-index: 2147483647;
+}
+
+#cyxy-swt .trs-header {
+    padding-bottom: 10.5px; 
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#cyxy-swt .trs-word {
+    font-family: PingFangSC-Semibold;
+    font-size: 16px;
+    color: #01BA78;
+    float: left;
+    max-width: 245px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#cyxy-swt .trs-pron {
+    float: left;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #333333;
+    margin-left: 20px;
+}
+
+#cyxy-swt .trs-sentence ,
+#cyxy-swt .dict-description {
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #333333;
+    line-height: 20px;
+    text-align: left;
+    border-top: 1px solid #EEE;
+    padding-top: 11.5px;
+}
+
+#cyxy-swt p {
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #333333;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    text-align: left;
+}
+
+#cyxy-swt div {
+    margin: 0;
+    line-height: 20px;
+    letter-spacing: 0;
+}
+
+#cyxy-swt .wiki-data .wiki-img {
+    float: right;
+    max-height: 150px;
+    width: 150px;
+    overflow: hidden;
+}
+
+#cyxy-swt .wiki-data .wiki-img img {
+    width: 100%;
+}
+
+#cyxy-swt .wiki-data>div {
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #333333;
+    line-height: 20px;
+}
+
+#cyxy-swt .wiki-data.has-pic>div:not(.wiki-img){
+    margin-right: 160px;
+}
+
+#cyxy-swt .wiki-data {
+    overflow: hidden;
+    padding-top: 11.5px;
+    border-top: 1px solid #EEE;
+    padding-bottom: 11.5px;
+    margin-top: 11.5px;
+}
+
+#cyxy-swt .wiki-link {
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #5ebb8d;
+    line-height: 20px;
+    text-align: left;
+    text-decoration: none;
+    border-top: 1px solid #EEE;
+    padding-top: 11.5px;
+    display: block;
+}
+
+#cyxy-swt .sound-play {
+    height: 20px;
+    min-width: 20px;
+    max-width: 20px;
+    color: #CCC;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+#cyxy-swt .cyxy-link-logo {
+    position: absolute;
+    right: 0;
+    height: 20px;
+    min-width: 20px;
+    max-width: 20px;
+}
+
+#cyxy-swt a::after, #cyxy-swt a::before {
+    content: "";
+    display: none;
+    visibility: hidden;
+}
+
+.sound-play:hover {
+    cursor: pointer;
+}
+
+.cyxy-video-hint,
+.cyxy-function-hint,
+.cyxy-favorite-hint,
+.cyxy-personal-hint {
+    background: #fff;
+    box-shadow: 3px 0 4px -1px hsla(0,0%,58%,.5), -4px 0 4px -1px hsla(0,0%,74%,.5);
+    border-radius: 3.5px;
+    position: fixed;
+    height: 32px;
+    line-height: 32px;
+    right: 65px;
+    transform: translateY(-50%);
+    font-size: 14px;
+    font-family: auto;
+    color: #666;
+    cursor: default;
+    padding-left: 10px;
+    padding-right: 15px;
+    margin-top: -16px;
+    z-index: 2147483647;
+}
+
+.cyxy-personal-hint {
+    bottom: 226px;
+}
+
+.cyxy-function-hint {
+    bottom: 176px;
+}
+
+.cyxy-favorite-hint {
+    bottom: 126px;
+}
+
+.cyxy-video-hint {
+    bottom: 76px;
+}
+
+.cyxy-video-hint::before,
+.cyxy-function-hint::before,
+.cyxy-favorite-hint::before,
+.cyxy-personal-hint::before {
+    content: "";
+    display: block;
+    position: fixed;
+    top: 50%;
+    margin-top: -6px;
+    transform: rotate(-45deg);
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    right: -5px;
+    box-shadow: 3px 0 4px -1px hsla(0,0%,58%,.5);
+}

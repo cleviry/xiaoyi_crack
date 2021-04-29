@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>彩云小译扩展程序选项</title>
+    <link href="./css/popup.css" rel="stylesheet" />
+    <link href="./css/materialize.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container_">
+      <div class="main">
+            <div class="logo-name" ><img src="images/logo-name.png"></div>
+            <div class="collection col">
+              <div class="switch collection-item">
+                  <span id="optionsAutoSWT">启动划词翻译</span>
+                  <label class="secondary-content">
+                    <input type="checkbox" id="select_translate">
+                    <span class="lever"></span>
+                  </label>
+              </div>  
+              <div class="switch collection-item">
+                    <span id="optionsAutoWebTrs">英文、日文网页自动翻译成中文</span>
+                    <label class="secondary-content">
+                      <input type="checkbox" id="auto_trs">
+                      <span class="lever"></span>
+                    </label>
+              </div>
+            </div>
+  
+            <!-- <div class="collection col"> -->
+              <!-- <div class="switch collection-item">
+                  启用视频翻译
+                  <label class="secondary-content">
+                    <input type="checkbox" id="video_translate">
+                    <span class="lever"></span>
+                  </label>
+              </div> -->
+              <!-- <div class="select-item collection-item">
+                  <span id="defaultTrsDirect">视频翻译默认方向</span>
+                  <div class="secondary-content">
+                          <select class="browser-default" id="select_transDirect">
+                                  <option id="transZh2En" selected>中 >> 英</option>
+                                  <option id="transEn2Zh">英 >> 中</option>
+                                  <option id="transJp2Zh">日 >> 中</option>
+                          </select>
+                  </div>
+              </div>
+              <div class="collection-item select-item">
+                  <span id="defaultSubtype">视频翻译默认显示</span>
+                  <div class="secondary-content">
+                          <select class="browser-default" id="select_subType">
+                                  <option selected id="optionBil">双语对照</option>
+                                  <option id="optionSource">只显示原文</option>
+                                  <option id="optionTarget">只显示译文</option>
+                          </select>
+                  </div>
+              </div> -->
+            <!-- </div> -->
+
+        <div class="collection col">
+          <a href="https://fanyi.caiyunapp.com/#/?utm_source=extension&utm_medium=popup&utm_content=textlink" class="collection-item" target="_blank" id="textDocTrs">在线文本翻译、文档翻译</a>
+          <a href="https://fanyi.caiyunapp.com/#/mine/doc?utm_source=extension&utm_medium=popup&utm_content=textlink" class="collection-item" target="_blank" id="UserCenter">个人中心</a>
+          <a href="https://fanyi.caiyunapp.com/#/app?utm_source=extension&utm_medium=popup&utm_content=textlink" class="collection-item" target="_blank" id="xiaoyiApp">彩云小译App</a>
+          <a href="https://wj.qq.com/s2/4011556/af91?utm_source=extension&utm_medium=popup&utm_content=textlink" class="collection-item" target="_blank" id="feedback">意见反馈</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
