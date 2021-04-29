@@ -24,4 +24,4 @@ git clone https://github.com/cleviry/xiaoyi_crack
 
 设置->扩展程序->打开`开发者模式`->加载已解压的扩展程序</br>
 
-![image-20210429134137022](C:\Users\clevi\AppData\Roaming\Typora\typora-user-images\image-20210429134137022.png)
+![image-20210429134137022](image-20210429134137022.png)
