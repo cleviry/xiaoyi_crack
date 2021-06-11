@@ -566,7 +566,7 @@
                     if (!K("#cyxy-popup-favour").hasClass("commit")) {
                         q = K(this), q.data("source_text") || q.data("source_text", this.source_text), K(this).find("." + Y).remove();
                         var e = this.sentence_id;
-                        if (m(), !ke) {
+                        /**if (m(), !ke) {
                             if ("share" == Ne) return A(), K(this);
                             if ("android" == Ne) return window.js.showLoginDialog(oe), K(this);
                             if ("ios" == Ne) return window.webkit.messageHandlers.showLoginDialog.postMessage({title: oe}), K(this);
@@ -581,7 +581,7 @@
                                     }
                                 }), K(this))
                             })
-                        }
+                        }**/
                         e ? j.fetchPageSentenceTargetList(e, ke, Se, function (e) {
                             if (0 == e.rc) {
                                 var t, n = e.sentence;
