@@ -26,7 +26,14 @@ git clone https://github.com/cleviry/xiaoyi_crack
 
 ![image-20210429134137022](image-20210429134137022.png)
 
+演示视频
+
+[xiaoyi_crack使用教程_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV14u411z77X/)
+
 #### 注意
+
 使用前请确认
 - 已删除其他版本或同类型插件
 - 已退出账户登录
+- 清空浏览器数据重试
+
