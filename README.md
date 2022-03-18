@@ -30,6 +30,8 @@ git clone https://github.com/cleviry/xiaoyi_crack
 
 [xiaoyi_crack使用教程_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV14u411z77X/)
 
+[xiaoyi开启自动翻译](https://www.bilibili.com/video/BV1zR4y1F7pU?from=search&seid=16637276319221217704&spm_id_from=333.337.0.0)
+
 #### 注意
 
 使用前请确认
